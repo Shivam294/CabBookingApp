@@ -1,17 +1,26 @@
 package com.cg.entities;
 
+import org.hibernate.mapping.PrimaryKey;
+
 import javax.persistence.*;
 
 @Entity
+@NamedQueries({
+        @NamedQuery(name = "Cab.countByCarTypeLikeIgnoreCase", query = "select count(c) from Cab c where upper(c.carType) like upper(:carType)"),
+        @NamedQuery(name = "Cab.findByCabId", query = "select c from Cab c where c.cabId = :cabId"),
+        @NamedQuery(name = "Cab.deleteByCabId", query = "delete from Cab c where c.cabId = :cabId")
+})
 public class Cab {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @PrimaryKeyJoinColumn
+    @Column(name = "cabId")
     private Integer cabId;
 
-    @Column(name = "car_type", nullable = false)
+    @Column(name = "carType", nullable = false)
     private String carType;
 
-    @Column(name = "per_km_rate", nullable = false)
+    @Column(name = "perKmRate", nullable = false)
     private float perKmRate;
 
     public Cab() {}

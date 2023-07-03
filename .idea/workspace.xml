@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd55c51b-d8fe-4536-92b7-35c54f1088bd" name="Changes" comment="Commit count: 1">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cg/CabManagementApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cg/Controller/CabController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cg/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cg/dto/CabDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cg/entities/Cab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cg/exception/CabAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cg/exception/CabNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cg/repository/CabRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cg/service/ICabService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cg/serviceImpl/ICabServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cg/entities/Cab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cg/entities/Cab.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +20,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="com.haulmont.jpb.JpaRepository" />
       </list>
     </option>
   </component>
@@ -43,6 +29,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2Rxw0hDQnqQCUScchz8YHM5MrKu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -57,7 +50,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/IdeaProjects Java/CabBookingApp/src/main/java/com/cg"
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/IdeaProjects Java/CabBookingApp/src/main/java/com/cg",
+    "settings.editor.selected.configurable": "com.haulmont.jpb.repository"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -65,6 +61,28 @@
       <recent name="C:\IdeaProjects Java\CabBookingApp\src\main\java\com\cg" />
       <recent name="C:\IdeaProjects Java\CabBookingApp\src\main\resources" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CabManagementApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.cg.CabManagementApplication" />
+      <module name="CabBooking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CabManagementApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -75,6 +93,14 @@
       <option name="presentableId" value="Default" />
       <updated>1688204821238</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit count: 1">
+      <created>1688211158898</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688211158898</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,5 +117,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit count: 1" />
     <option name="LAST_COMMIT_MESSAGE" value="Commit count: 1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
