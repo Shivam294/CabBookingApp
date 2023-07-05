@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd55c51b-d8fe-4536-92b7-35c54f1088bd" name="Changes" comment="Commit count: 1">
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+    <list default="true" id="bd55c51b-d8fe-4536-92b7-35c54f1088bd" name="Changes" comment="Commit count: 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cg/entities/Cab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cg/entities/Cab.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +50,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/IdeaProjects Java/CabBookingApp/src/main/java/com/cg",
-    "settings.editor.selected.configurable": "com.haulmont.jpb.repository"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -100,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688211158898</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit count: 2">
+      <option name="closed" value="true" />
+      <created>1688382627112</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688382627112</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,7 +121,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit count: 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit count: 1" />
+    <MESSAGE value="Commit count: 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit count: 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
