@@ -4,6 +4,9 @@ import org.hibernate.mapping.PrimaryKey;
 
 import javax.persistence.*;
 
+/*
+ *Entity Class Cab
+ */
 @Entity
 @NamedQueries({
         @NamedQuery(name = "Cab.countByCarTypeLikeIgnoreCase", query = "select count(c) from Cab c where upper(c.carType) like upper(:carType)"),
@@ -22,16 +25,22 @@ public class Cab {
 
     @Column(name = "perKmRate", nullable = false)
     private float perKmRate;
-
+/*
+*No Parameterized Constructor
+ */
     public Cab() {}
-
+/*
+*Parameterized Constructor
+ */
     public Cab(Integer cabId, String carType, float perKmRate) {
         super();
         this.cabId = cabId;
         this.carType = carType;
         this.perKmRate = perKmRate;
     }
-
+/*
+*Getter and Setter
+ */
     public Integer getCabId() {
         return cabId;
     }
